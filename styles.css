@@ -3,3 +3,60 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  background-image: url(./media/img/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 30rem;
+  overflow: hidden;
+}
+
+main {
+  padding-top: 18rem;
+  height: 42rem;
+  width: 34.6rem;
+  background-color: #efc842;
+  position: absolute;
+  margin-left: 67%;
+  z-index: -2;
+  opacity: 90%;
+  transform: skew(-15deg, 0deg);
+  text-align: right;
+  padding-left: 6rem;
+}
+.texts {
+  width: 22rem;
+  font-family: monospace;
+  letter-spacing: -0.25rem;
+  font-weight: 600;
+}
+.texts p {
+  font-size: 2.5rem;
+}
+h1 {
+  font-size: 7rem;
+}
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem;
+  font-weight: 600;
+  font-size: larger;
+}
+.leftup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.rightup {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  text-transform: uppercase;
+}
